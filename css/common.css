@@ -38,6 +38,12 @@ ul {
 
 /* font-family: inherit;  - чтобы  кнопки унаследовали основные свойства */
 
+/* Фон не повторяеться */
+
+
+
+
+
 /* Header */
 
 .container {
@@ -138,9 +144,36 @@ ul {
   
 }
 
-.auth-nav .item + .item {
-  margin-left: 30px;
+
+.link.mail{
+  margin-right:30px;
 }
+.link.mail::before {
+  display: inline-flex;
+  width: 16px;
+  height: 11px;
+  margin-right: 10px;
+  content: " ";
+  background-size: contain;
+  
+  background-image: url(../Images/envelope.png);
+  
+}
+.link.mob::before {
+  display: inline-flex;
+  width: 10px;
+  height: 15px;
+  margin-right: 10px;
+  content: " ";
+  background-size: contain;
+
+  background-image: url(../Images/mobile.png);
+}
+
+
+/* /* .auth-nav .item + .item {
+  margin-left: 30px; */
+
 
 .auth-nav .link {
   color: var(--secondary-text-color);
