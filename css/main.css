@@ -339,6 +339,88 @@
   margin-left:30px;
 }
 
-.clients .item {
+
+
+.item .company1 {
+  display: block;
   width: 170px;
+  height: 90px;
+  background-image: url(../Images/logo1.png);
+ 
+ 
+  background-position: 50% 50%;
+  background-repeat:no-repeat;
+  
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+}
+
+.item .company2 {
+  display: block;
+  width: 170px;
+  height: 90px;
+  background-image: url(../Images/logo2.png);
+ 
+ 
+  background-position: 50% 50%;
+  background-repeat:no-repeat;
+  
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+}
+
+.item .company3 {
+  display: block;
+  width: 170px;
+  height: 90px;
+  background-image: url(../Images/logo3.png);
+ 
+ 
+  background-position: 50% 50%;
+  background-repeat:no-repeat;
+  
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+}
+
+.item .company4 {
+  display: block;
+  width: 170px;
+  height: 90px;
+  background-image: url(../Images/logo4.png);
+ 
+ 
+  background-position: 50% 50%;
+  background-repeat:no-repeat;
+  
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+}
+
+.item .company5 {
+  display: block;
+  width: 170px;
+  height: 90px;
+  background-image: url(../Images/logo5.png);
+ 
+ 
+  background-position: 50% 50%;
+  background-repeat:no-repeat;
+  
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+}
+
+.item .company6 {
+  display: block;
+  width: 170px;
+  height: 90px;
+  background-image: url(../Images/logo6.png);
+ 
+ 
+  background-position: 50% 50%;
+  background-repeat:no-repeat;
+  
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
 }

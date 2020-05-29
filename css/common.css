@@ -270,6 +270,57 @@ footer {
 
   }
   
+.footer-links {
+  display: flex;
+}
+
+.footer-links .inst {
+  display: block;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  background-image: url(../Images/instagram\ 2.svg);
+  background-repeat:no-repeat;
+  background-position: 50% 50%;
+  border-radius: 50%;
+
+  margin-right: 10px;
+}
+.footer-links .twit {
+  display: block;
+  width: 44px;
+  height: 44px;
+  background-color:#2196F3;;
+  background-image: url(../Images/twitter\ 2.svg);
+  background-repeat:no-repeat;
+  background-position: 50% 50%;
+  border-radius: 50%;
+
+  margin-right: 10px;
+}
+.footer-links .face {
+  display: block;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  background-image: url(../Images/facebook\ 2.svg);
+  background-repeat:no-repeat;
+  background-position: 50% 50%;
+  border-radius: 50%;
+
+  margin-right: 10px;
+}
+.footer-links .kedin {
+  display: block;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  background-image: url(../Images/linkedin\ 2.svg);
+  background-repeat:no-repeat;
+  background-position: 50% 50%;
+  border-radius: 50%;
+}
+
   .madeby {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     padding-bottom: 21px;
