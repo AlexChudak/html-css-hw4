@@ -246,6 +246,8 @@
   font-size: 14px;
   line-height: 1.14;
   text-align: center;
+
+  text-transform: uppercase;
 }
 
 /* наша команда */
@@ -273,6 +275,9 @@
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .position {
@@ -281,6 +286,8 @@
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+
+  margin-bottom: 16px;
 }
 
 .worker-links {
