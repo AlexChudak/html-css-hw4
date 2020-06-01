@@ -147,8 +147,26 @@ ul {
 
 .link.mail{
   margin-right:30px;
+  
 }
-.link.mail::before {
+
+
+
+.icon-mail {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+
+.icon-phone {
+  width: 10px;
+  height:15px;
+  margin-right: 10px;
+  fill: currentColor;
+}
+/* .link.mail::before {
   display: inline-flex;
   width: 16px;
   height: 11px;
@@ -157,9 +175,9 @@ ul {
   background-size: contain;
   
   background-image: url(../Images/envelope.png);
-  
-}
-.link.mob::before {
+ 
+} */
+/* .link.mob::before {
   display: inline-flex;
   width: 10px;
   height: 15px;
@@ -168,7 +186,7 @@ ul {
   background-size: contain;
 
   background-image: url(../Images/mobile.png);
-}
+} */
 
 
 /* /* .auth-nav .item + .item {
