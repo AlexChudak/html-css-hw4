@@ -299,49 +299,92 @@ footer {
   width: 44px;
   height: 44px;
   background-color: rgba(255, 255, 255, 0.1);
-  background-image: url(../Images/instagram\ 2.svg);
-  background-repeat:no-repeat;
-  background-position: 50% 50%;
+ 
   border-radius: 50%;
-
+  text-align: center;
+  padding-top: 12px;
+  
   margin-right: 10px;
+
 }
+.icon-instagramm {
+  width: 20px;
+  height: 20px;
+  fill:#ffff;
+  
+}
+
+
 .footer-links .twit {
   display: block;
   width: 44px;
   height: 44px;
-  background-color:#2196F3;;
-  background-image: url(../Images/twitter\ 2.svg);
-  background-repeat:no-repeat;
-  background-position: 50% 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  
   border-radius: 50%;
 
   margin-right: 10px;
+  text-align: center;
+
+  padding-top: 12px;
 }
-.footer-links .face {
+.icon-twitter {
+  width: 20px;
+  height: 16px;
+  fill:#ffff;
+
+}
+
+.footer-links .faceb {
   display: block;
   width: 44px;
   height: 44px;
   background-color: rgba(255, 255, 255, 0.1);
-  background-image: url(../Images/facebook\ 2.svg);
-  background-repeat:no-repeat;
-  background-position: 50% 50%;
+  
   border-radius: 50%;
 
   margin-right: 10px;
+  text-align: center;
+
+  padding-top: 12px;
 }
+.icon-facebook {
+  width: 20px;
+  height: 16px;
+  fill:#ffff;
+}
+
 .footer-links .kedin {
   display: block;
   width: 44px;
   height: 44px;
   background-color: rgba(255, 255, 255, 0.1);
-  background-image: url(../Images/linkedin\ 2.svg);
-  background-repeat:no-repeat;
-  background-position: 50% 50%;
+  
   border-radius: 50%;
+  text-align: center;
+
+  padding-top: 12px;
+}
+.icon-linkedin {
+  width: 20px;
+  height: 20px;
+  fill:#ffff;
 }
 
-  .madeby {
+
+
+
+
+
+.icon-telegram {
+  width: 24px;
+  height: 24px;
+  fill:#ffff;
+
+  
+}
+
+.madeby {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     padding-bottom: 21px;
     padding-top: 18px;
@@ -353,5 +396,5 @@ footer {
     font-size: 12px;
     line-height: 2;
     text-align: center;
-  }
+}
   

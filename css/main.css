@@ -284,6 +284,7 @@
   width: 270px;
   display: inline-flex;
   flex-direction: column;
+  background-color: #fff;
 }
 
 .ourteam-ul .item + .item {
@@ -316,6 +317,7 @@
   display:flex;
   justify-content:space-evenly ;
   align-content:center;
+  padding-bottom: 24px;
   
 }
 
@@ -324,54 +326,120 @@
   display: inline-flex;
   width: 40px;
   height: 40px;
-  background-color:rgb(230, 19, 19);
+  background-color:#ffff;
   border-radius: 50%;
   padding-left: 12px;
   padding-right: 12px;
   padding-top: 12px;
   padding-bottom: 12px;
-
-
   
 }
+
+.insta:hover {
+  background-color:#2196F3; 
+}
+
+
+
 .icon-insta {
   width: 20px;
-  fill: teal;
+  fill: #AFB1B8;
 
-  
+}
+.icon-insta:hover {
+  fill:#ffff;
+}
+
+.twitt {
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+  background-color:#ffff;
+  border-radius: 50%;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.twitt:hover {
+  background-color: #2196F3; 
 
 }
 
+.icon-twitt {
+  width: 20px;
+  fill: #AFB1B8;
+}
 
+.icon-twitt:hover {
+  fill:#ffff;
+}
 
-.facebook {
+.face {
   display: inline-flex;
+  width: 40px;
+  height: 40px;
+  background-color:#ffff;
+  border-radius: 50%;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.icon-face {
   width: 20px;
   height: 20px;
-  
-  content: "";
-  
-  background-image: url(../Images/facebook.svg);
-}
-.twitter {
-  display: inline-flex;
-  width: 20px;
-  height: 20px;
-  
-  content: "";
-  
-  background-image: url(../Images/twitter.svg);
-}
-.linkedin {
-  display: inline-flex;
-  width: 20px;
-  height: 20px;
-  
-  content: "";
-  
-  background-image: url(../Images/linkedin.svg);
+  fill: #AFB1B8;
 }
 
+.face:hover {
+  background-color:#2196F3; 
+}
+
+
+
+.icon-face {
+  width: 20px;
+  fill: #AFB1B8;
+
+}
+.icon-face:hover {
+  fill:#ffff;
+}
+
+.linked {
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+  background-color:#ffff;
+  border-radius: 50%;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.icon-linked {
+  width: 20px;
+  height: 20px;
+  fill: #AFB1B8;
+}
+
+.linked:hover {
+  background-color:#2196F3; 
+}
+
+
+
+.icon-linked {
+  width: 20px;
+  fill: #AFB1B8;
+
+}
+.icon-linked:hover {
+  fill:#ffff;
+}
 
 /* Наши клиенты */
 .clients {
@@ -388,82 +456,113 @@
   display: block;
   width: 170px;
   height: 90px;
-  background-image: url(../Images/logo1.png);
- 
- 
-  background-position: 50% 50%;
-  background-repeat:no-repeat;
   
   border: 1px solid #AFB1B8;
   border-radius: 4px;
+
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px 
 }
+
+.icon-company1 {
+  width: 44px;
+  height: 49px;
+ 
+}
+
 
 .item .company2 {
   display: block;
   width: 170px;
   height: 90px;
-  background-image: url(../Images/logo2.png);
- 
- 
-  background-position: 50% 50%;
-  background-repeat:no-repeat;
+  
   
   border: 1px solid #AFB1B8;
   border-radius: 4px;
+
+  text-align: center;
+  padding-top: 19px;
+  padding-bottom: 19px 
 }
+.icon-company2 {
+  width: 40px;
+  height: 52px;
+ 
+}
+
 
 .item .company3 {
   display: block;
   width: 170px;
   height: 90px;
-  background-image: url(../Images/logo3.png);
- 
- 
-  background-position: 50% 50%;
-  background-repeat:no-repeat;
   
   border: 1px solid #AFB1B8;
   border-radius: 4px;
+
+  text-align: center;
+  padding-top: 24px;
+  padding-bottom: 23px 
 }
+.icon-company3 {
+
+  width: 41px;
+  height: 43px;
+}
+ 
 
 .item .company4 {
   display: block;
   width: 170px;
   height: 90px;
-  background-image: url(../Images/logo4.png);
- 
- 
-  background-position: 50% 50%;
-  background-repeat:no-repeat;
+  
   
   border: 1px solid #AFB1B8;
   border-radius: 4px;
+
+  text-align: center;
+  padding-top: 24px;
+  padding-bottom: 24px 
+}
+.icon-company4 {
+  
+  width: 80px;
+  height: 42px;
+  fill:#AFB1B8;
 }
 
 .item .company5 {
   display: block;
   width: 170px;
   height: 90px;
-  background-image: url(../Images/logo5.png);
- 
- 
-  background-position: 50% 50%;
-  background-repeat:no-repeat;
   
   border: 1px solid #AFB1B8;
   border-radius: 4px;
+
+  text-align: center;
+  padding-top: 22px;
+  padding-bottom: 21px 
+}
+.icon-company5 {
+  
+  width: 59px;
+  height: 47px;
 }
 
 .item .company6 {
   display: block;
   width: 170px;
   height: 90px;
-  background-image: url(../Images/logo6.png);
  
- 
-  background-position: 50% 50%;
-  background-repeat:no-repeat;
-  
   border: 1px solid #AFB1B8;
   border-radius: 4px;
+
+  text-align: center;
+  padding-top: 22px;
+  padding-bottom: 22px 
+}
+.icon-company6 {
+  
+  width: 88px;
+  height: 45px;
 }
